@@ -1,0 +1,7 @@
+puts "Escriba la gravedad del planeta"
+g=gets.to_f
+puts "Escriba el radio del planeta en metros para averiguar su velocidad de escape"
+r=gets.to_f
+
+ve= Math.sqrt(2*g*r)
+puts "La velocidad de escape del planeta es #{ve} mts/s"
